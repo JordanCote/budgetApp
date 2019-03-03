@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace appBudget.Properties
+namespace UI.Properties
 {
 
 

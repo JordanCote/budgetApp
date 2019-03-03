@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appBudget", "appBudget\appBudget.csproj", "{5E1810A6-427A-4415-8737-DF85A4ECBC10}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D438C751-DF45-4BA2-8A5A-D1B7CFD5FC39}"
+	ProjectSection(SolutionItems) = preProject
+		Controler.cs = Controler.cs
+		Date.cs = Date.cs
+		Depense.cs = Depense.cs
+		DepensePonctuelle.cs = DepensePonctuelle.cs
+		DepenseRecurrente.cs = DepenseRecurrente.cs
+		Stack.cs = Stack.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +28,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E1810A6-427A-4415-8737-DF85A4ECBC10} = {D438C751-DF45-4BA2-8A5A-D1B7CFD5FC39}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AE1FB68C-1A2E-4E1B-8C95-3051D9A7E9EC}
